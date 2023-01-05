@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: darkviolet;
+  padding: 4rem 9rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  background-image: url("../../burger-layers/show2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.container .burger {
+  width: 400px;
+  position: relative;
+}
+.container .price {
+  padding: 2rem 5rem;
+  width: 400px;
+  height: 580px;
+}
+.container .price .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.container .price .buttons .btn {
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid rgb(29, 27, 27);
+  box-shadow: 7px 8px 8px rgb(197, 192, 192);
+}
+.container .price .buttons .total {
+  background-color: rgb(180, 10, 199);
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  border: 2px solid rgb(29, 27, 27);
+  box-shadow: 5px 5px 5px rgb(197, 192, 192);
+}
+
+.sale {
+  background-color: rgb(64, 147, 219);
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid rgb(29, 27, 27);
+  box-shadow: 7px 8px 8px rgb(197, 192, 192);
+  margin-top: 20px;
+  font-size: 17px;
+}/*# sourceMappingURL=main.css.map */
